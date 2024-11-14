@@ -1,0 +1,55 @@
+/*
+   color primary: #495E57
+   color secondary: #F4CE14
+*/
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+.classLogo img {
+    width: 300px;
+}
+.classNav {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+
+}
+.classNav a {
+    color: #495E57 ;
+    text-decoration: none;
+}
+.bars, .secondNav {
+    display: none;
+}
+
+
+/* Media Quries */
+
+@media screen and (max-width: 930px) {
+    .classNav {
+        display: none;
+    }
+    .secondNav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        padding: 5px;
+    }
+    .secondNav a {
+        color: #495E57;
+        text-decoration: none;
+    }
+    .bars {
+        display: block;
+        font-size: 30px;
+        color: #495E57;
+        margin-top: 27px;
+    }
+}

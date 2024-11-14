@@ -1,0 +1,126 @@
+
+
+main {
+    margin-top: 150px;
+}
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin: 10px;
+}
+
+section .specials {
+    display: flex;
+    justify-content: space-around;
+    gap: 250px;
+    padding: 15px 0;
+}
+section .specials h1 {
+    color: #495E57;
+}
+.info {
+    height: 180px;
+}
+.info .info1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 67px;
+}
+.info .info2 p {
+    padding: 10px 20px;
+}
+.order {
+    background-color: rgba(231, 229, 229, 0.799);
+    color: #495E57;
+    width: 300px;
+    border-radius: 15px;
+    height: 450px;
+}
+.order img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 8px;
+    border-radius: 15px 15px 0 0;
+}
+
+/*media queries */
+
+
+@media screen and (max-width: 930px) {
+    section .specials {
+        display: flex;
+        gap: 25px;
+        padding: 15px 0;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        margin: 10px;
+    }
+    .order {
+        width: 400px;
+        border-radius: 15px;
+        height: 450px;
+        margin-left: 20px;
+    }
+    .order img {
+        width: 400px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    section .specials {
+        display: flex;
+    }
+    .specials button {
+        width: 120px;
+        height: 70px;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        margin: 10px;
+    }
+    .order {
+        width: 300px;
+        border-radius: 15px;
+        height: 450px;
+        margin-left: 20px;
+    }
+    .order img {
+        width: 300px;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 770px) {
+    .card {
+        align-items: center;
+    }
+    .order {
+        width: 300px;
+    }
+    .order img {
+        width: 300px;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 328px) {
+    .card {
+        align-items: center;
+    }
+    .order {
+        width: 320px;
+    }
+    .order img {
+        width: 320px;
+        height: 200px;
+    }
+}

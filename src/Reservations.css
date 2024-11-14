@@ -1,0 +1,48 @@
+
+
+.reservation {
+    background-color: #495E57;
+    color: #F4CE14;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.form form {
+    text-align: center;
+}
+
+input[type=text],input[type=email],input[type=date],input[type=time],input[type=number], textarea {
+    width: 350px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #495E57;
+    border-radius: 5px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+select {
+    width: 360px;
+    height: 40px;
+    padding: 1px;
+    background-color: #495E57;
+    border-radius: 5px;
+    border: 1px solid #495E57;
+    color: white;
+}
+label{
+    color: #495E57;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: start;
+
+}
+.form button {
+    background-color: #F4CE14;
+    color: #495E57;
+    width: 250px;
+}
+.form button:hover {
+    background-color: #495E57;
+    color: #F4CE14;
+}
+

@@ -1,0 +1,72 @@
+
+.parent {
+    background-color:#495E57 ;
+    color: white;
+    padding: 10px;
+    margin: 20px 0;
+}
+.testify {
+    margin: 20px 0;
+    color: #495E57;
+    background-color: white;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    line-height: 25px;
+    padding: 20px 2px;
+    border-radius: 10%;
+}
+.testify img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.cardparent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* media queries*/
+
+
+@media screen and (max-width: 930px) {
+    .cardparent {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .testify {
+        width: 400px;
+        height: 350px;
+        text-align: center;
+        margin-left: 20px;
+        border-radius: 20px;
+    }
+}
+/* media queries*/
+
+
+@media screen and (max-width: 360px) {
+    .cardparent {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .testify {
+        width: 250px;
+        height: 350px;
+        text-align: center;
+        margin-left: 20px;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .cardparent {
+        align-items: center;
+    }
+    .testify {
+        width: 300px;
+    }
+}
