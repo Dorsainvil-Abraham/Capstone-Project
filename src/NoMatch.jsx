@@ -19,7 +19,6 @@ function NoMatch() {
   return (
     <>
         <div style={stylin}>
-           
         </div>
         <div style={styl}>
             <FaDigg />

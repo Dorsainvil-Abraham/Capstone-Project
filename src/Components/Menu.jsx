@@ -2,9 +2,9 @@ import React from 'react'
 import GreekSalad from '../Images/PictureFood01.jpg'
 import Bruschetta from '../Images/PictureFood03.jpg'
 import LemonDessert from '../Images/LemonDessert.jpg'
-import './Main.css'
+import './Menu.css'
 
-function Main() {
+function Menu() {
   return (
     <main>
       <section>
@@ -54,4 +54,4 @@ function Order (props) {
   )
 }
 
-export default Main
+export default Menu

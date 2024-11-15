@@ -1,15 +1,15 @@
 import React from 'react'
 import Nav from '../Components/Nav'
-import Header from '../Components/Header'
-import Main from '../Components/Main'
+import Hero from '../Components/Hero'
+import Menu from '../Components/Menu'
 import Testimonials from '../Components/Testimonials'
 import About from '../Components/About'
 
 function Layout() {
   return (
     <div>
-       <Header />
-       <Main />
+       <Hero />
+       <Menu />
        <Testimonials />
        <About />
     </div>

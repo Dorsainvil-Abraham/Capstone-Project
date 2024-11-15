@@ -2,7 +2,6 @@ import React from 'react'
 import './Nav.css'
 import Logo from '../Images/LittleLemonLogo.jpg'
 import { Link } from 'react-router-dom'
-import { FaBars } from 'react-icons/fa'
 
 function Nav() {
   return (

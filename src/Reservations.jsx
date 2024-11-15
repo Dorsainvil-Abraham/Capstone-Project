@@ -41,6 +41,9 @@ function Contact() {
   }
 
 
+  const handlingSubmit = (event) => {
+        navigate('/completed')
+  }
   //const handlingSubmit = (event) => {
   // event.preventDefault();
     //alert('Form has been Submitted');
@@ -54,7 +57,7 @@ function Contact() {
       </div>
 
       <div className='form'>
-        <form>
+        <form onSubmit={handlingSubmit}>
 
             <label htmlFor="name" >User Name</label><br />
             <input type="text" value={name} onChange={handlingName} placeholder='Enter Your Name' required/><br />
@@ -91,7 +94,7 @@ function Contact() {
             <label htmlFor="User_message">Message</label><br />
             <textarea name="User_message" id="User_message" placeholder='Write Something' value={message} onChange={handlingMessage} style={{height: '150px'}} required></textarea><br />
 
-            <button type='submit' onClick={ () => navigate('completed')} >Make Your Reservation</button>
+            <button type='submit'>Make Your Reservation</button>
       </form>
       <br />
       </div>

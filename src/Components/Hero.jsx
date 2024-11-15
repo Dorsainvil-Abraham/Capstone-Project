@@ -1,9 +1,9 @@
 import React from 'react'
 import image from '../Images/PictureBackground.jpg'
 import { useNavigate } from 'react-router-dom'
-import './Header.css'
+import './Hero.css'
 
-function Header() {
+function Hero() {
   const navigate = useNavigate()
 
   return (
@@ -25,4 +25,4 @@ function Header() {
   )
 }
 
-export default Header
+export default Hero
